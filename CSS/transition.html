@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50vh;
+            width: 40vw;
+            background-color: black;
+            border: 3px solid palevioletred;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        article{
+            height: 20vh;
+            width: 15vw;
+            background-color: red;
+            border: 3px solid green;
+            transition: all 3s linear 0.1s;
+        }
+        article:hover{
+            background-color: yellow;
+            transform: rotate(360deg);
+            transform: scaleX(2);
+            transform: scaleY(2);
+            transform: scale(2,0.5);
+            transform: skewX(160deg);
+            transform: skewY(160deg);
+            transform: skew(150deg,160deg);
+            transform: translateX(-200px);
+            transform: translateY(200px);
+            transform: translateY(-200px);
+            transform: translate(-100px,-150px);
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+      <article></article>
+    </div>
+</body>
+</html>

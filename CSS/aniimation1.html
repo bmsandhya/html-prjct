@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        aside{
+            height: 20vh;
+            width: 15vw;
+            background-color: darkcyan;
+                  animation-name: text;
+                  animation-duration: 2s;
+                  animation-timing-function: linear;
+                  animation-delay: 0.1s;
+                  animation-iteration-count: infinite;
+                  /* margin-left: 500px;
+                  margin-top: 300px; */
+
+                  /* position: relative;
+                  top:250px;
+                  left:450px;*/
+
+        } 
+        @keyframes text{
+            0%{
+                position: relative;
+                top:0;
+                left:0;
+            }
+            25%{
+                position: relative;
+                top:0px;
+                left:300;
+            }
+            50%{
+                position: relative;
+                top:250px;
+                left:300px;
+
+            }
+            75%{
+                position: relative;
+                top:250px;
+                left:0;
+            }
+            100%{
+                position: relative;
+                top:0;
+                left:0;
+            }
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+
+    </aside>
+</body>
+</html>

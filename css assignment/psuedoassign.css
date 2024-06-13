@@ -1,0 +1,12 @@
+#sam{
+    position: relative;
+    top:2vh;
+    left:80vw;
+    background-color: white;
+    height: 60px;
+    width: 150px;
+    background-size: 10% 50%;
+    border-radius: 1.3em;
+    font-weight: 100;
+    font-size: 15px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+            position: 0;
+        }
+#grid-container{
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+    display: grid;
+   /* grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 100px 100px; */
+    gap:15px; 
+    grid-template-areas: "header header header header"
+                          "sbdr  sbdr   sectn  sectn" 
+                          "sbdr  sbdr   sectn  sectn" 
+                          "sbdr  sbdr   sectn  sectn" 
+                          "ftr   ftr   ftr   ftr";
+}
+.items{
+    border: 5px solid black;
+    background-color: cadetblue;
+}
+#items1{
+    grid-area: header;
+}
+#items2{
+    grid-area: sbdr;
+}
+#items3{
+    grid-area: sectn;
+}
+#items4{
+    grid-area: ftr;
+}
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div id="items1" class="items">Grid-Box1</div>
+        <div id="items2" class="items">
+            <img src="https://cdn.pixabay.com/photo/2023/11/20/23/06/woman-8402052_640.jpg" alt="" height="350px" width="450px">
+        </div>
+        <div id="items3" class="items">Grid-Box3</div>
+        <div id="items4" class="items">Grid-Box4</div>
+        <!-- <div id="items5" class="items">Grid-Box5</div>
+        <div id="items6" class="items">Grid-Box6</div> -->
+    
+      </div>
+    
+</body>
+</html>

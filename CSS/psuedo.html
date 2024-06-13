@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>h1::first-letter{
+            color: blueviolet;
+            font-size: 100px;
+        }
+
+        div>h1::first-line{
+            color: darkcyan;
+        }
+        div>h1::selection{
+            color: darkgreen;
+            background-color: darkslateblue;
+        }
+        ol>li::marker{
+            color: blanchedalmond;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        div>h1::after{
+            content: "thank you";
+            color: indianred;
+            font-size: 70px;
+        }
+        div>::before{
+            content: "\01f160";
+            content: "wel-come";
+        }
+        div>h1{
+            height: 140vh;
+            width:50%;
+            text-align: justify;
+          /* background-image: ;
+          background-repeat: ;
+          background-size: ; */
+   
+            border:8px solid cadetblue;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <div>
+        <h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt fuga labore ex sit, mollitia fugit maxime voluptate facilis itaque cupiditate quas magni hic eaque aperiam suscipit, aliquid veritatis at dolorem autem! Repellendus id, delectus maiores ipsam hic atque neque suscipit provident ullam consectetur velit molestiae quia tempore eveniet ex enim tempora magnam cum nam blanditiis omnis labore, vitae corrupti! Molestiae dolor adipisci nulla, eum, sunt at molestias in necessitatibus quisquam ratione nostrum quasi voluptate est numquam inventore. Voluptas, sunt rerum nisi tempore quis quidem odit doloribus excepturi hic consequatur explicabo sequi eaque nobis, suscipit quos ad atque! Illum, quam. Ab.
+        </h1>
+    </div>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4s</li>
+    </ol>
+</body>
+</html>

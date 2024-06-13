@@ -1,0 +1,46 @@
+body{
+    box-shadow:#f0f2f5;
+
+}
+div{
+    outline: 2px solid ;
+    border: 2px solid white;
+    margin: auto;
+    height: 340px;
+    text-align: center;
+    display: block;
+    background-color:white;
+    background-size: 450px 380px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 0 0 14px 0;
+    width: 396px;
+
+}
+.text1{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.text2{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    height: 22px;
+    border-radius: 6px;
+}
+.text3{
+    width:330px;
+    height: 42px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+    text-align: center;
+
+}

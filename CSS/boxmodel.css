@@ -1,0 +1,17 @@
+div{
+    border:10px solid palevioletred;
+    width: 25%;
+    height: 50px;
+    /* padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;  */
+     padding: 50px,50px,50px,50px; 
+     margin-left: 300px;
+    margin-bottom: 300px;
+    margin-top: 300px;
+    margin-right: 300px; 
+    /* margin: 10px,100px,10px,100px; */
+    outline: 10px solid black;
+    outline-offset: 100px;
+}

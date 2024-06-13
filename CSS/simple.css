@@ -1,0 +1,30 @@
+#san{
+    
+    color: rgb(28, 161, 70);
+     
+}
+.test{
+    background-color: blueviolet;
+    color: darkgoldenrod;
+    
+    
+}
+nav{
+    background-color: hotpink;
+    color: aqua;
+}
+
+h1,aside,section,p{
+    background-color: black;
+    color: bisque;
+}
+
+*{
+    background-color: cadetblue;
+
+}
+
+details{
+    color: black;
+    background-color: grey;
+} 

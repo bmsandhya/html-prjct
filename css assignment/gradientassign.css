@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(185, 178, 170);
+}
+h1{
+    color: black;
+ text-align: center;
+ font-weight: bold;
+}
+#demo{
+    background-image: linear-gradient( to bottom,orange 0%,orange 30%,white 30%,white 60%,green 60%,green 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+#demo1{
+    background-image: repeating-conic-gradient(white 0%,white 2%,blue 2%,blue 5%);
+    border-radius: 70px;
+    position: absolute;
+    left:40px;
+    top:80px ; 
+}
+#demo2{
+    background-image:linear-gradient(to bottom ,red 0%,red 12%,orange 12%,orange 22% ,yellow 22%,yellow 32% ,green 32%,green 42%,blue 42%,blue 50%,purple 50%,purple 52%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+#demo3{
+    background-image:linear-gradient(to bottom ,black 0%,black 30%, red 30%,red 60%,yellow 60%,yellow 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+#demo4{
+    background-image:repeating-radial-gradient(red 0%,red 5%,white 5%,white 10%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+}
+#demo5{
+    background-image:linear-gradient(to bottom ,white 0%,white 30%,blue 30%,blue 60%,red 60%,red 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80px;
+    left: 680px;
+}
+#demo6{
+    background-image:linear-gradient(to bottom ,brown 0%,brown 30%,white 30%,white 60%,blue  60%,blue 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80px;
+    left: 800px;
+}
+#demo7{
+    background-image:linear-gradient(to left ,black 0%,black 30%, yellow 30%,yellow 60%,red 60%,red 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80px;
+    left: 930px;
+}
+#demo8{
+    background-image:linear-gradient(to right ,green 0%,green 30%,white 30%,white 60%,brown  60%,brown 90%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 80px;
+    left: 1100px;
+}

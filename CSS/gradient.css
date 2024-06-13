@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+#gradient{
+    height: 70vh;
+    width: 50vw;
+    border: 4px solid black;
+    /* background-image:conic-gradient(blue 0%,blue 15%,brown 15%,brown 35%,yellow 60%,aqua 60%,aqua 100%) ; */
+    /* background-image: repeating-conic-gradient(white 0%,blue 2.5deg,white 2.5deg,blue 5.0deg); */
+    /* background-image: repeating-conic-gradient(white 0%,white 2%,blue 2%,blue 5%); */
+    /* border-radius: 80%; */
+
+    /* background-image: linear-gradient(to top right purple 0%,white 35%);  */
+     background-image: repeating-linear-gradient(to top right ,black 0%,white 5%,black 8%,white 10%); 
+    /* background-image: radial-gradient(brown 0%,red 40%,blue,purple,white);  */
+      /* background-image: repeating-radial-gradient(black 0%,black 2%,white 5%,white 8%);  */
+    position: absolute;
+    top:150px;
+    left:300px;
+}

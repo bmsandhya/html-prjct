@@ -1,0 +1,284 @@
+ body{
+    background-color:darkgreen;
+    background-size: 100% 120vh;
+
+}
+.san{
+    float:inline-end;
+    border-radius: 35px;
+    background-position: right;
+}
+.text{
+    display: flex;
+    height: 88%;
+    align-items:center;
+}
+h2{
+    color: yellow;
+    font-size: 85px;
+    align-content: center;
+
+}
+p{
+    color: yellow;
+    font-size: 25px;
+}
+.text2{
+    color:black;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+}
+.text3{
+ color:brown;
+ border: 0;
+ background-color:pink;
+ border-radius: 30px;
+ width: 150px;
+ height: 60px;
+ font-size: 18px;
+}
+
+   footer{
+    background-color: azure;
+    height: 120vh;
+    width: 100%;
+   }
+div{
+  
+    display:flex;
+    box-sizing: border-box;
+    justify-content:space-evenly;
+    margin-top: 20px;
+   
+
+  }
+  .s{
+    height: 200px ;
+    width: 300px;
+    background-position: center left;
+    border-radius: 25px;
+    box-sizing: border-box;
+ }
+  .s1{
+    height: 200px ;
+    width: 300px;
+    background-position: center;
+    border-radius: 25px;
+    box-sizing: border-box;
+ }
+  .s2{
+    height: 200px ;
+    width: 300px;
+    background-position: center right;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+  }
+  .a{
+    justify-content: center;
+    padding: 8px,8px,8px,12px;
+    position: relative;
+    align-items: center;
+  }
+  #demo7{
+    background-color: brown;
+    background-position: 30% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  #demo8{
+    height: 300px;
+    width: 400px;
+    align-items: flex-start;
+    position: absolute;
+    top:50px;
+    left:200px;
+    border-radius: 35px;
+
+  }
+  #demo9{
+    color: #e9c0e9;
+    font-weight: bold;
+    position: absolute;
+    top:50px;
+    left:650px;
+    font-size: 50px;
+  }
+  #demo10{
+    color: #e9c0e9; 
+    font-size: 20px;
+    position: absolute;
+    top:190px;
+    left:650px;
+  }
+  #demo11{
+    background-color: #e9c0e9; 
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    left:700px;
+    color: rgb(150, 78, 78);
+    height: 65px;
+    width: 170px;
+    border-radius: 30px;
+  }
+  #demo12{
+    background-color: white;
+    position:absolute;
+    /* top:100px;
+    left:170px; */
+    color: black;
+    background-size: 100% 40vh;
+    background-repeat: no-repeat;
+  }
+  #sam{
+    color: black;
+    font-size: 80px;
+    font-weight: 650;
+    position: absolute;
+    top:15vh;
+    left:7vw;
+    }
+    #sam1{
+      border-radius: 20%;
+      height: 400px;
+      width: 750px;
+      position: absolute;
+      top:34vh;
+      left:7vw;
+    }
+    #sam2{
+      border-radius: 20%;
+      height: 400px;
+      width: 450px;
+      position: absolute;
+      top:34vh;
+      left:65vw;
+    }
+    #sam3{
+      position: absolute;
+      top:94vh;
+      left:9vw;
+      font-weight: 800;
+      color: black;
+    }
+    #sam4{
+      position: absolute;
+      top:94vh;
+      left:65vw;
+      font-weight: 800;
+      color: black;
+    }
+    #sam5{
+      position: absolute;
+      top:110vh;
+      left:12vw;
+      border-radius: 20%;
+      height: 300px;
+      width: 450px;
+
+
+    }
+    #sam6{
+      position: absolute;
+      top:110vh;
+      left:55vw;
+      border-radius: 20%;
+      height: 600px;
+      width: 500px;
+    }
+    #sam7{
+      position: absolute;
+      top:160vh;
+      left:12vw;
+      border-radius: 20%;
+      height: 300px;
+      width: 450px;
+    }
+    #sam8{
+      position: absolute;
+      top:148vh;
+      left:14vw;
+      font-weight: 150;
+      font-size: 25px;
+      color: rgb(124, 26, 11);
+      
+    }
+    #sam9{
+      position: absolute;
+      top:200vh;
+      left:14vw;
+      font-weight: 150;
+      font-size: 25px;
+      color: rgb(124, 26, 11);
+    }
+    #sam10{
+      position: absolute;
+      top:192vh;
+      left:60vw;
+      font-weight: 150;
+      font-size: 25px;
+      color: rgb(124, 26, 11);
+      
+    }
+    #sam11{
+      position: absolute;
+      top:210vh;
+      left:8vw;
+      font-weight: 550;
+      font-size: 50px;
+      color: black;
+     }
+  
+     .abc{
+      position: absolute;
+      top:230vh;
+      left:8vw;
+      font-size: 70px;
+     }
+     .abc1{
+      position: absolute;
+      top:230vh;
+      left:39vw;
+      font-size: 70px;
+   
+     }
+     .abc2{
+      position: absolute;
+      top:230vh;
+      left:68vw;
+      font-size: 70px;
+     }
+     .abc3{
+      position: absolute;
+      top:250vh;
+      left:8vw;
+      font-size: 70px;
+     }
+     .abc4{
+      position: absolute;
+      top:250vh;
+      left:39vw;
+      font-size: 70px;
+     }
+     .abc5{
+      position: absolute;
+      top:250vh;
+      left:68vw;
+      font-size: 70px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+

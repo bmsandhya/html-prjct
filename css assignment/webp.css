@@ -1,0 +1,340 @@
+nav{
+    background-color: black;
+    height: 23vh;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+}
+#demo{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top:20px;
+    left:15px;
+    display: flex;
+    justify-content: center;
+}
+/* #d{
+    position: absolute;
+    top:25px;
+    left:500px;
+    background-color: dimgray;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width:90px;
+    border-radius: 30%;
+} */
+.d{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  /* top:20px; */
+  left:700px;
+  /* height: 40px; */
+  /* width: 150px; */
+  /* border-radius: 40px; */
+  position: absolute;
+  top:38px;
+  /* left:500px; */
+  background-color: rgb(44, 42, 42);
+  color: white;
+  font-size: 15px;
+  height: 60px;
+  width:110px;
+  border-radius: 40%;
+}
+.d1{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  /* top:20px; */
+  left:840px;
+  /* height: 40px; */
+  /* width: 150px; */
+  /* border-radius: 40px; */
+  position: absolute;
+  top:38px;
+  /* left:500px; */
+  background-color: rgb(44, 42, 42);
+  color: white;
+  font-size: 15px;
+  height: 60px;
+  width:110px;
+  border-radius: 40%;
+}
+.d2{
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  /* top:20px; */
+  left:970px;
+  /* height: 40px; */
+  /* width: 150px; */
+  /* border-radius: 40px; */
+  position: absolute;
+  top:38px;
+  /* left:500px; */
+  background-color: rgb(44, 42, 42);
+
+  color: white;
+  font-size: 15px;
+  height: 60px;
+  width:110px;
+  border-radius: 40%;
+}
+
+#demo2{
+position: absolute;
+top:34px;
+left:1290px;
+background-color: red;
+height: 60px;
+width: 120px;
+border-radius: 40px;
+color: white;
+font-weight: 450;
+font-size: 20px;
+}
+iframe{
+    /* width: 100%;
+    height:400vh; */
+    background-size: 100% 130vh;
+    background-position: 100% 130vh;
+    position: relative;
+    top:0;
+    left:0;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 15%;
+}
+#demo3{
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    border-radius: 28px;
+    position: absolute;
+    top: 145vh;
+    left:0;
+    padding-left: 180px;
+
+}
+#demo4{
+    font-weight: bold;
+    font-size:100px;
+    color: #ffffff;
+    position: absolute;
+    top: 40vh;
+    left:8vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#demo5{
+    font-weight: bold;
+    font-size:100px;
+    color: red;
+    position: absolute;
+    top: 55vh;
+    left:8vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#demo6{
+    font-size: 50px;
+    position: absolute;
+    top: 70vh;
+    left:8vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+#demo7{
+    position: absolute;
+    top: 120vh;
+    left:8vw;
+    background-color: red;
+    height: 80px;
+    width: 200px;
+    border-radius: 1.2em;
+    color: white;
+    font-weight: 450;
+    font-size: 20px;
+}
+#img{
+    height: 80%;
+    width: 50%;
+    border-radius: 15%;
+    position: absolute;
+    top:170vh;
+}
+#img1{
+    height: 80%;
+    width: 50%;
+    border-radius: 15%;
+    position: absolute;
+    top:170vh;
+    left:52%;
+}
+#img2{
+    height: 80%;
+    width: 80%;
+    border-radius: 8%;
+    position: absolute;
+    top:250vh;
+    left:0%;
+}
+#img3{
+    height: 60%;
+    width: 30%;
+    border-radius: 8%;
+    position: absolute;
+    top:330vh;
+    left:0%;
+}
+#img4{
+    height: 60%;
+    width: 60%;
+    border-radius: 8%;
+    position: absolute;
+    top:330vh;
+    left:53%;
+}
+/* #sam6{
+    border: 2px solid red;
+    background-color: red;
+   }
+   #sam5{
+     background-color: red;
+     height:200px;
+     width: 100%; 
+   }  */
+    #sam7{
+     font-size: 80px;
+     font-weight: 800;
+     color: red;
+     position: absolute;
+     top:400vh;
+     left:32vw;
+   
+    }
+    #sam8{
+        font-size: 35px;
+        font-weight: 100;
+        color: black;
+        position: absolute;
+        top:438vh;
+        left:32vw; 
+    }
+    #sam9{
+        position: absolute;
+        top:460vh;
+        left:20vw; 
+        align-items: center;
+        border-radius: 18%;
+    }
+    #sam10{
+        position: absolute;
+        top:570vh;
+        left:45vw; 
+        align-items: center;
+        border-radius: 30%;
+        background-color: red;
+        color: white;
+        height: 70px;
+        width: 220px;
+        font-weight: 150;
+        font-size: 25px;
+    }
+   
+     #icon1{
+        height: 60px;
+        width: 50%;
+        position: absolute;
+        top:30vh;
+        left:30vw;
+        
+        font-size: 20px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+      
+        background-size: 50% 60px;
+        border-radius: 1.2em;    }
+    #icon2{
+        height: 60px;
+        width: 50%;
+        position: absolute;
+        top:40vh;
+        left:30vw;
+        
+        font-size: 20px;
+        background-color: white;
+        font-family: 'Times New Roman', Times, serif;
+      
+        background-size: 50% 60px;
+        border-radius: 1.2em;    } 
+   #icon{
+    background-color: red;
+    border: 2px solid red;
+    height:700px;
+    width:100%;
+    position: absolute;
+    top:600vh;
+    
+   }
+   #icon3{
+    height: 60px;
+    width: 50%;
+    position: absolute;
+    top:50vh;
+    left:30vw;
+    
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+    background-size: 50% 60px;
+    border-radius: 1.2em;}
+#icon4{
+    height: 120px;
+    width: 50%;
+    position: absolute;
+    top:60vh;
+    left:30vw;
+    
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+    background-size: 50% 60px;
+    border-radius: 1.2em;
+}
+#icon5{
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    left:35vw;
+    font-size: 100px;
+}
+#icon6{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:52vw;
+    top:85vh;
+    height: 80px;
+    width: 200px;
+    border-radius: 1.2em;
+}
+#icon7{
+    background-color: black;
+    border:2px solid black;
+    height:70vh;
+    width: 100%;
+    position: absolute;
+    /* left:52vw; */
+    top:105vh;
+}
+  
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            height:40vh;
+            width:30vw;
+            background-color: cadetblue;
+            border-radius: 20px;
+            position: absolute;
+            left:30%;
+            top: 30vh;
+            animation-name: rotate;
+            animation-duration: 5s;
+            animation-timing-function:linear;
+            animation-delay: 0.2;
+            animation-iteration-count: infinite;
+        }
+        @keyframes rotate{
+            from{
+                background-color: cadetblue;
+                position:absolue;
+                left:30%;
+                top:30vh;
+            }
+            to{
+                background-color:  black;
+                position:absolue;
+                left:30%;
+                top:30vh;
+                transform: rotate(360deg);
+            }
+            0%{
+                background-color: blueviolet;
+            }
+            25%{
+                background-color:brown;
+
+            }
+            50%{
+                background-color:darkblue;
+
+            }
+            75%{
+                background-color:goldenrod;
+                border-radius: 70%;
+
+            }
+            100%{
+                background-color:hotpink;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+
+    </article>
+</body>
+</html>

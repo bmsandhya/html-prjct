@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                *{
+           margin: 0;
+            position: 0;
+        }
+
+    #grid-container{
+    height: 60vh;
+    width: 60vw;
+    border: 2px solid black;
+    display: grid;
+   grid-template-columns: 1fr 0fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-rows:   100px 60px 60px 60px 60px 60px 60px 60px 60px 200px ; 
+    gap:7px;  
+    grid-template-areas: "header header header"
+                          "sctn1  sctn2 sctn4" 
+                          "sctn3  sctn2 sctn4" 
+                          "sctn5   sctn6" 
+                          "ftr   ftr   ftr";
+}
+.items{
+    border: 3px solid red;
+}
+#items1{
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+#items2{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+#items5{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+/* #items2{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+#items5{
+   grid-column-start: 1;
+   grid-column-end: 3;
+} */
+/* #items6{
+   grid-row-start: 2;
+   grid-row-end: 4;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+#items7{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+#items8{
+   grid-row-start: 2;
+   grid-row-end: 4;
+}*/
+#items10{
+    grid-column-start: 1;
+   grid-column-end: 5;
+} 
+
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div id="items1" class="items">Grid-Box1</div>
+        <div id="items2" class="items">Grid-Box2</div>
+        <div id="items3" class="items">Grid-Box3</div>
+        <div id="items4" class="items">Grid-Box4</div> 
+        <div id="items5" class="items">Grid-Box5</div>
+        <div id="items6" class="items">Grid-Box6</div> 
+        <div id="items7" class="items">Grid-Box7</div> 
+        <div id="items8" class="items">Grid-Box8</div> 
+        <div id="items10" class="items">Grid-Box10</div> 
+    </div>
+</body>
+</html>
+

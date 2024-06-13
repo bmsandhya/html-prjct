@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(29, 7, 7);
+            height: 100vh;
+        }
+        h1{
+            color: white;
+            font-size: 100px;
+            letter-spacing: 10px;
+            line-height: 0.70em;
+            text-transform: uppercase;
+            -webkit-box-reflect:below 1px linear-gradient(transparent,#0008);
+            animation: box 5s linear 0.1s infinite;
+        }
+        @keyframes box{
+            0%,3%,6%,10%,20%,25%,35%,48%,55%,61%,75%,81%,85%,91%,95%,98%{
+                color: white;
+                box-shadow: none;
+            }
+            2%,4%,5%,7%,21%,23%,30%,40%,44%,51%,65%,80%,90%,93%,97%,100%{
+                color: chocolate; 
+                 box-shadow: 0 0 12px aqua
+                0 0 12px aqua
+                0 0 12px aqua
+                0 0 12px aqua
+                0 0 12px aqua;
+                /* text-shadow: 10px 20px 30px rgb(red, green, blue); */
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 contenteditable="true">Web Technology</h1>
+</body>
+</html>

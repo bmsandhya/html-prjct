@@ -1,0 +1,12 @@
+#d{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100px;
+}
+.d2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg");
+}

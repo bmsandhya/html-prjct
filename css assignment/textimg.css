@@ -1,0 +1,8 @@
+body{
+    background-color:darkgray;
+    height: 200vh;
+    width: 100%;
+}  
+#demo{
+    background-image: url("");
+}

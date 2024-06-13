@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color:floralwhite;
+    height: 80px;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 40px;
+}
+.demo2{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 200px;
+}
+.demo1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

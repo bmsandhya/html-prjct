@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(165, 154, 154);
+
+}
+#btn{
+    position: absolute;
+    top:65vh;
+    left: 20vw;
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: all 0.2s linear 0.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: darkcyan;
+    color: white;
+    transform: rotate(360deg);
+}
+#cards{
+    display: flex;
+    border-radius: 20px;
+    height: 72vh;
+}

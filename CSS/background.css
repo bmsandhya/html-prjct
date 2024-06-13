@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/30/20/33/heart-700141_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/11/15/43/woman-1509956_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}

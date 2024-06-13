@@ -1,0 +1,19 @@
+h1{
+    color: aliceblue;
+}
+h2{
+    color: red;
+}
+h6{
+    color: white;
+}
+
+
+*{
+    background-color: black;
+
+}
+button{
+    background-color: red;
+    color: white;
+}
